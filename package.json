@@ -1,0 +1,27 @@
+{
+  "name": "azure-web-app",
+  "version": "1.0.0",
+  "description": "Node.js web app in Azure Web App Service ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoGeng/azure-web-app.git"
+  },
+  "keywords": [
+    "Web",
+    "App",
+    "Node.js"
+  ],
+  "author": "Zhao Geng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhaoGeng/azure-web-app/issues"
+  },
+  "homepage": "https://github.com/ZhaoGeng/azure-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
