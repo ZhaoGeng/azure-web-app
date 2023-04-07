@@ -23,7 +23,7 @@ app.get('/', (req,res)=>{
     getFeatureFlag()
     .then((config)=>{
        const updatedText = config.enabled ? "NEW FEATURE ENABLED" : "NEW FEATURE DISABLED";
-       return res.send("Hello World, "+ updatedText +" my web host name is " + process.env.APP_HOST_NAME || " not defined. ");
+       return res.send("Hello there, "+ updatedText +" my web host name is " + process.env.APP_HOST_NAME || " not defined. ");
      })
     .catch((err) => {
       console.log("ERROR:", err);
