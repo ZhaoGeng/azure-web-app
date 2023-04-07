@@ -4,7 +4,7 @@
   "description": "Node.js web app in Azure Web App Service ",
   "main": "index.js",
   "scripts": {
-     "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/ZhaoGeng/azure-web-app#readme",
   "dependencies": {
+    "@azure/app-configuration": "^1.3.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mocha": "^10.2.0"
   }
